@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Radical Therapy for Development Teams</title>
+  <title>Radical Therapy for Software Teams | GetMotivatedBuddies Edition</title>
   <meta name="description" content="Providing radical transparency dev team therapy, burnout prevention, and leadership coaching for tech professionals. Get the emotional support and mental health resources you need to thrive in the tech industry.">
   <meta name="keywords" content="Radical transparency, Dev team therapy, Workplace therapy, Mental health in tech, Tech industry therapy, Emotional support for developers, Burnout prevention for developers, Work-life balance in tech, Mindfulness in tech, Stress management for tech workers, Team communication coaching, Team conflict resolution, Leadership coaching for tech managers, Productivity coaching for developers, Self-care for tech professionals">
 
@@ -34,7 +34,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">Radical Therapy Dev</a></h1>
+      <h1 class="logo"><a href="index.html">Radical Therapy Dev for GetMotivatedBuddies Dev Team and Interns</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -42,9 +42,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Get Radical</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a href="articles.html">Articles</a></li>
+          <li><a class="nav-link scrollto" href="#process">Process</a></li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -59,8 +57,8 @@
     <div class="container-fluid" data-aos="fade-up">
       <div class="row justify-content-center">
         <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Radical Therapy for your Development Team</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">Get Transparent, Communicate and Diversify while <em>Building Better Products</em></h2>
+          <h1>Radical Therapy for GMB Development Team</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">Get Transparent and COmmunicate while <em>Building a Better Products</em></h2>
           <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
         </div>
         <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
@@ -108,78 +106,14 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Schedule a quick Assesment</h2>
-            <p>Please select a date and time that works for you and we will go over your current team, discover any problems you'd like to solve and come up with a quick training plan to get started:</p>
-            <!-- Calendar inline widget -->
-            <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
-            <div class="zcal-inline-widget"><a href="https://zcal.co/i/DWUW3Bte">Quick Assesment - Schedule a meeting</a></div>
-          </div>
-          <div class="col-md-6">
-            <h2>Payment</h2>
-            <p>Please make a payment of $50 for each 30-minute session:</p>
-            <!-- PayPal payment link -->
-            <div id="smart-button-container">
-              <div style="text-align: center;">
-                <div id="paypal-button-container"></div>
-              </div>
-            </div>
-          <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-          <script>
-            function initPayPalButton() {
-              paypal.Buttons({
-                style: {
-                  shape: 'rect',
-                  color: 'gold',
-                  layout: 'vertical',
-                  label: 'paypal',
-                  
-                },
-        
-                createOrder: function(data, actions) {
-                  return actions.order.create({
-                    purchase_units: [{"description":"Discovery and Rapid Learning Session","amount":{"currency_code":"USD","value":50}}]
-                  });
-                },
-        
-                onApprove: function(data, actions) {
-                  return actions.order.capture().then(function(orderData) {
-                    
-                    // Full available details
-                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-        
-                    // Show a success message within this page, e.g.
-                    const element = document.getElementById('paypal-button-container');
-                    element.innerHTML = '';
-                    element.innerHTML = '<h3>Thank you for your payment!</h3>';
-        
-                    // Or go to another URL:  actions.redirect('thank_you.html');
-                    
-                  });
-                },
-        
-                onError: function(err) {
-                  console.log(err);
-                }
-              }).render('#paypal-button-container');
-            }
-            initPayPalButton();
-          </script>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Counts Section -->
+   
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>2 Week Radical Lesson Plan!</h2>
+          <h2>2 Week Introductory Radical Lesson Plan!</h2>
           <p>Lesson Plan: Radical Transparency in Software Development</p>
         </div>
 
@@ -214,7 +148,6 @@
               <ul>
                 <li><strong>Overview of training katas and their role in developing new skills:</strong><br/>We will discuss what training katas are and how they can be used to develop new skills.</li>
                 <li><strong>How to set up and run training katas:</strong><br/> We will cover the steps involved in setting up and running training katas for specific programming languages or tools.</li>
-                <li><strong>Best practices for facilitating training katas:</strong><br/> We will discuss best practices for facilitating training katas, including how to provide feedback and support for learners.</li>
                 <li><strong>Hands-on practice in running a training kata session:</strong><br/> In this session, we will practice running a training kata session and receiving feedback from peers.</li>
               </ul>
             </div>
@@ -280,162 +213,6 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>These are 100% "real" testimonials, and "not" generated by an AI in the style of a celebrity.  Transparency!</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  I was skeptical at first, but after attending the radical software development training, I realized that my entire life had been leading up to that moment. I finally found my true purpose in life: to debug code until the wee hours of the morning. Thank you, radical software development training, for showing me the light!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/andy.jpeg" class="testimonial-img" alt="">
-                <h3>Andy Kaufman</h3>
-                <h4>CTO &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Before I started radical software therapy, I thought I was losing my mind. My code was buggy, my deadlines were looming, and my boss was breathing down my neck. But after just one session, I felt like a new man. They helped me work through my issues with debugging and gave me some great tips for managing my stress. Now, I'm a lean, mean, coding machine! Thanks, radical software therapy, for giving me the tools to succeed!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/katz.jpg" class="testimonial-img" alt="">
-                <h3>Dr. Katz</h3>
-                <h4>Backend Developer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Let me tell you something, folks. Before I attended the radical software development training, I was just another angry man shouting at his computer. But now, I'm an angry man who knows how to shout at his computer with purpose. If you want to unleash your inner rage and turn it into something productive, this training is for you!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/lewis.jpeg" class="testimonial-img" alt="">
-                <h3>Lewis Black</h3>
-                <h4>UX/UI</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  I was a bit intimidated by the whole programming thing, but the radical software development training made it accessible and fun. I never thought I'd say this, but I actually enjoy writing code now. It's like solving a puzzle, except the puzzle is constantly changing and sometimes frustrating. Thanks for the challenge, radical software development training!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/janeane.jpg" class="testimonial-img" alt="">
-                <h3>Janeane Garofalo</h3>
-                <h4>Freelance Data Scientist</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  I just had to come back and tell you folks about the impact the radical software development training had on my life. I used to be a stand-up comedian, but now I'm a sit-down programmer. I don't know what that means, but I do know that I'm making more money and getting more laughs. Thanks, radical software development training, for giving me a new lease on life!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/andy.jpeg" class="testimonial-img" alt="">
-                <h3>Andy Kaufman (again)</h3>
-                <h4>Pro Wrestler</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>All sessions are remote and will include team progress reports templates, a documentation wiki and management review and communication process. 
-             If you ask for the Gold or platinum tier we are just going to aassume you are beyond are ability to help or just enjoy throwing away money for "premium" services like the undercoat wash on your car or extra foam in your latte. </p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Bronze</h3>
-              <h4><sup>$</sup>50<span> / hour</span></h4>
-              <p>This tier includes individual training sessions with a certified software development coach. 
-                You will receive personalized attention and guidance to help you improve your skills and overcome any challenges you may be facing.
-              </p>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>Silver Tier</h3>
-              <h4><sup>$</sup>500<span> / week</span></h4>
-              <p>This tier includes a full week of group training sessions with a certified software development coach. 
-                You will have the opportunity to collaborate and learn with other like-minded individuals, 
-                as well as receive individual feedback and support.</p>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Gold Tier</h3>
-              <h4><sup>$</sup>2000<span> / week</span></h4>
-              <p>This tier includes a full week of group training sessions with a certified software development coach, as well as therapy sessions with a licensed therapist. You will learn how to manage stress, 
-                build resilience, and improve your overall mental and emotional well-being, in addition to improving your software development skills.
-              </p>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-            <div class="box">
-              <span class="advanced">Advanced</span>
-              <h3>Platinum Tier</h3>
-              <h4><sup>$</sup>4000<span> / week</span></h4>
-              <ul>
-                <p>This tier includes a full week of group training sessions with a certified software development coach, 
-                  as well as therapy sessions with a licensed therapist and a one-on-one coaching session with a high-level executive coach. You will receive personalized attention and 
-                  guidance from three different experts to help you achieve your goals, overcome any challenges, and become a highly skilled and confident software developer.</p>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
   
     <!-- Stand Up Section -->
     <section id="stanup" class="features">
@@ -473,7 +250,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Radical Therapy Dev</h3>
+            <h3>Radical Therapy Dev for GMB</h3>
             <p>
               Brooklyn, NY <br>
               United States <br><br>
@@ -485,13 +262,15 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.getmotivatedbuddies.com">GMB Production</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.getmotivatedbuddies.com">GMB Production</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Tools and Processses you need to Learn</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Dev Team Therapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">GitHub Branching, Forking and Commiting and Pull Requests</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Dev Team Procurement</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management Guidance</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Process and Infrastructure Review</a></li>
@@ -508,7 +287,7 @@
       <div class="copyright-wrap d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>Radical Therapy Dev</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Radical Therapy Dev and GetMotivatedBuddies</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
